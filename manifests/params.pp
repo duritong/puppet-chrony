@@ -38,9 +38,10 @@ class chrony::params {
       $package_name = 'chrony'
       $service_name = 'chronyd'
       $servers = {
-        '0.pool.ntp.org' => ['iburst'],
-        '1.pool.ntp.org' => ['iburst'],
-        '2.pool.ntp.org' => ['iburst'],
+        '0.centos.pool.ntp.org' => ['iburst'],
+        '1.centos.pool.ntp.org' => ['iburst'],
+        '2.centos.pool.ntp.org' => ['iburst'],
+        '3.centos.pool.ntp.org' => ['iburst'],
       }
     }
 
